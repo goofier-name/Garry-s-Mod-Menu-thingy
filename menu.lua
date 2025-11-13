@@ -65,7 +65,7 @@ function Goofy:Menu(text, bar, icon)
 					   cls.DoClick = function() frame:Remove() end
 		end
 		
-		function frame:List()
+		function frame:List(side)
 		         local fw,fh = frame:GetSize()
 				 local mw = 5
 				 local fw,fh = frame:GetSize()
@@ -73,7 +73,7 @@ function Goofy:Menu(text, bar, icon)
 				 local pan = vgui.Create("DPanel", frame)
 					   pan:SetSize(mw, fh - barh)
 					   pan.Paint = function(me, w,h)
-						   draw.RoundedBox( 0, 0,0, w,h, Color(25,25,25, 150) )
+						   draw.RoundedBox( 0, 0,0, w,h, Color(45,45,45) )
 						   draw.RoundedBox( 0, w-sh * 0.0027,0, sh * 0.0027,h, bar )
 						   
 						   me:SetSize(mw, fh - barh)
@@ -114,3 +114,4 @@ function Goofy:Menu(text, bar, icon)
 		
 	return frame
 end
+	   
