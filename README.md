@@ -1,4 +1,4 @@
-Goofy UI Framework - Function Usage Guide
+Goofy UI Framework - Function Usage
 ============================================
 
 1. Goofy:Menu(text, bar, icon)
