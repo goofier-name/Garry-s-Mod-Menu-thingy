@@ -65,7 +65,7 @@ function Goofy:Menu(text, bar, icon)
 					   cls.DoClick = function() frame:Remove() end
 		end
 		
-		function frame:List(side)
+		function frame:List()
 		         local fw,fh = frame:GetSize()
 				 local mw = 5
 				 local fw,fh = frame:GetSize()
@@ -114,16 +114,3 @@ function Goofy:Menu(text, bar, icon)
 		
 	return frame
 end
-
-
-local men = Goofy:Menu("Goofy Grape", Color(0,255,0), "icon32/wand.png")
-	    men:SetSize(ScrW()/2, ScrH()/2)
-	    men:Center()
-	    men:CloseButton()
-
-local list = men:List()
-	    list:addButton("A", function() end, "icon32/wand.png")
-	    list:addButton("ABBBBB", function() end, "icon32/wand.png")
-	    list:addButton("A", function() end)
- 
-	   
