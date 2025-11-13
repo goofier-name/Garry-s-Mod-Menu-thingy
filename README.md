@@ -12,8 +12,7 @@ Goofy UI Framework - Function Usage
 2. frame:CloseButton()
    - Adds a close button (X) to the menu.
 
-3. frame:List(side)
-   - Creates a panel on the side of the menu to hold buttons.
+3. frame:List()
    - Returns: The created list panel.
 
 4. list:addButton(text, func, icon)
