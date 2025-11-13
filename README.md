@@ -32,3 +32,9 @@ men:CloseButton()
 local list = men:List()
 list:addButton("Button 1", function() print("Clicked 1") end, "path/to/icon.png")
 list:addButton("Button 2", function() print("Clicked 2") end)
+
+
+Examples:
+---------------
+<img width="650" alt="Example1" src="https://github.com/goofier-name/Garry-s-Mod-Menu-thingy/blob/main/images/example1.png">
+<img width="650" alt="Example2" src="https://github.com/goofier-name/Garry-s-Mod-Menu-thingy/blob/main/images/example2.png">
